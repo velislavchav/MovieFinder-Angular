@@ -1,0 +1,14 @@
+<div class="card mb-3" >
+    <h3 class="card-header card-title">{{movie.title}}</h3>
+    <img style="height: 200px; width: 100%; display: block;" [src]="movie.posterPath" alt="Card image">
+    <div class="card-body movie-description">
+      <p class="card-text">{{movie.overview}}</p>
+    </div>
+    <div class="card-footer text-muted">
+     release date: {{movie.release_date}}
+     {{ poster_path }}
+    </div>
+</div>
+
+
+  <!-- poster_path -->

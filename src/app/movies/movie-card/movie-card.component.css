@@ -1,0 +1,9 @@
+.movie-description {
+    height: 250px;
+    overflow: hidden;
+}
+
+.card-title {
+    height: 80px;
+    text-align: center;
+}

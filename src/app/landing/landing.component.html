@@ -1,0 +1,154 @@
+<!-- Jumbotron Feature -->
+<div class="jumbotron">
+  <div class="container">
+    <img src="https://cdn.wallpaperhub.app/cloudcache/1/b/5/8/e/f/1b58ef6e3d36a42e01992accf5c52d6eea244353.jpg" alt="background" class="parallax-img">
+    <!-- <hr class="style-seven" /> -->
+    <h1>Welcome to our gallery</h1>
+    <h4>Here you can find amazing pictures and can contest with your photos.</h4>
+    <p>
+      <a class="btn btn-lg btn-clear-light soft-transition" role="button" target="_blank"><i class="fa fa-twitter"> Register </i></a>
+      <a class="btn btn-lg btn-clear-light soft-transition" role="button" target="_blank"><i class="fa fa-github-square"> Login </i></a>
+      <!-- <a class="btn btn-lg btn-clear-light soft-transition" href="https://www.linkedin.com/in/jkulakowski" role="button" target="_blank"><i class="fa fa-linkedin-square"> LinkedIn</i></a> -->
+    </p>
+  </div>
+</div>
+
+<!------------------------------------
+		--     Begin Main Page Content      --
+		------------------------------------->
+<div class="container-fluid">
+
+  <!-- Fixed Navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+
+      <div class="container">
+
+        <!-- Mobile menu button -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <!-- END .navbar-collapse -->
+      </div>
+      <!-- END .container -->
+    </div>
+    <!-- END .container-fluid -->
+  </nav>
+
+  <!---------------------------
+			--  Portfolio Image Links  --
+			---------------------------->
+  <section id="portfolio">
+
+    <div class="container">
+
+      <h1>Blog and events</h1>
+      <hr class="style-seven" />
+
+      <!-- Row #1 -->
+      <div class="row">
+        <div class="col-md-4 soft-transition">
+          <!-- loadModal(title, thumb, body, launchLink) 
+								-- from custom-modal-functions.js -->
+          <a href="#" data-toggle="modal" data-target="#modal" onclick="loadModal('Cube Art', 'cube-art-screen-shot.png', 'Cube Art is a simple to use drawing program written in html, css, and vanilla javascript.  It was coded in an object-oriented style and features the html canvas element.<br /><br /> The program enables the user to draw with varying pencil sizes and colors.  It also bears a unique feature that allows it to randomly draw up to 1000 squares of varying sizes instantly.', 'http://jimkulakowski.com/programs/games-apps/cube-art/')">
+            <div class="project-overlay teall-bg"></div>
+            <img src="http://jimkulakowski.com/web-design/img/portfolio-thumbs/cube-art-thumb.png" alt="cube art thumbnail" class="project-thumb">
+            <h3>Cube Art</h3>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" data-toggle="modal" data-target="#modal" onclick="loadModal('JS Audio Player', 'js-audio-player-screenshot.png', 'JS Audio Player is a custom HTML5 audio player that automatically converts links containing audio files to play buttons through vanilla javascript functions.<br /><br />When installed, the player will convert any standard audio link to a play button with a title.  Once the play button is clicked, the player loads the appropriate audio file into the JS player and displays custom controls that are fixed to the bottom of the screen, allowing the user to scroll the page while always maintaining view of the controls.<br /><br />The player features a play/pause button, progress bar with scrubbing, dedicated quick scrubbing buttons, volume control, and loop button all wrapped in a responsive design.', 'http://jimkulakowski.com/programs/games-apps/js-audio-player/')">
+            <div class="project-overlay teall-bg"></div>
+            <img src="http://jimkulakowski.com/web-design/img/portfolio-thumbs/js-audio-player-thumb.png" alt="js audio player thumbnail" class="project-thumb">
+            <h3>JS Audio Player</h3>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" data-toggle="modal" data-target="#modal" onclick="loadModal('Midi.js Piano', 'midi-piano-screenshot.png', 'Midi.js Piano is a HTML5, interactive keyboard application incorporating the MIDI.js framework.  The application was written in html, css, and vanilla javascript.<br /><br />The application allows the user to select from an extensive list of instruments and sfx.  The sound is loaded and can be played in two mid-range octaves using the onscreen keys.', 'http://jimkulakowski.com/programs/games-apps/piano-keys/')">
+            <div class="project-overlay teall-bg"></div>
+            <img src="http://jimkulakowski.com/web-design/img/portfolio-thumbs/piano-thumb.png" alt="piano app thumbnail" class="project-thumb">
+            <h3>Midi.js Piano</h3>
+          </a>
+        </div>
+      </div>
+
+      <br />
+
+      <!-- Row #2 -->
+      <div class="row">
+        <div class="col-md-4 soft-transition">
+          <a href="#" data-toggle="modal" data-target="#modal" onclick="loadModal('Rock, Paper, Scissors', 'rock-paper-scissors-screenshot.png', 'Rock, Paper, Scissors is a custom, HTML5 build of the classic game, featuring a clean, modern design and some catchy music.  The user plays against a programmed opponent.  One point is awarded for each round and the first to reach a total score of seven wins the game!', 'http://jimkulakowski.com/programs/games-apps/rock-paper-scissors/')">
+            <div class="project-overlay teall-bg"></div>
+            <img src="http://jimkulakowski.com/web-design/img/portfolio-thumbs/rock-scissors-paper-thumb.png" alt="rock, paper, scissors thumbnail" class="project-thumb">
+            <h3>Rock, Paper, Scissors</h3>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" data-toggle="modal" data-target="#modal" onclick="loadModal('Gravity Square', 'gravity-square-screenshot.png', 'Gravity Square is an interactive HTML5 application written in html, css, and vanilla javascript.  The user may use the arrow keys and space bar to rotate, scale, and manipulate the square in a number of ways.<br /><br />Under the hood, the design features object-oriented programming and relies upon the html canvas element to display the square.', 'http://jimkulakowski.com/programs/games-apps/gravity-square/')">
+            <div class="project-overlay teall-bg"></div>
+            <img src="http://jimkulakowski.com/web-design/img/portfolio-thumbs/gravity-square-thumb.png" alt="gravity square thumbnail" class="project-thumb">
+            <h3>Gravity Square</h3>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#" data-toggle="modal" data-target="#modal" onclick="loadModal('Tim Burton Tribute', 'burton-screenshot.png', 'Tim Burton Tribute is a dedication fan page designed with Twitter Bootstrap.  The page features a short passage about the film director and a list of his most notable films.  Each film includes links to watch the film on Amazon, get detailed information from the Internet Movie Database (IMDB), or from Wikipedia.', 'http://jimkulakowski.com/programs/websites/tim-burton/')">
+            <div class="project-overlay teall-bg"></div>
+            <img src="http://jimkulakowski.com/web-design/img/portfolio-thumbs/burton-thumb.png" alt="tim burton site thumbnail" class="project-thumb">
+            <h3>Tim Burton Tribute</h3>
+          </a>
+        </div>
+        <!-- END row -->
+
+
+        <!--------------------------
+						--         Modal          --
+						--------------------------->
+        <!-- Cube Art -->
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h2 class="modal-title" id="myModalLabel"></h2>
+              </div>
+              <div class="modal-thumb">
+                <img src="" alt="">
+              </div>
+              <div class="modal-body"></div>
+              <div class="modal-footer">
+                <a href="#" type="button" class="btn btn-default btn-clear-dark" target="_blank">Launch</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- END .container -->
+
+    </div>
+
+  </section>
+
+
+<!--------------------------
+		--         Footer         --
+		--------------------------->
+<footer class="teall-bg">
+  <div class="container-fluid text-center affix-bottom">
+    I am just fast practicing my angular :D Upcoming updates
+  </div>
+</footer>
